@@ -1,0 +1,24 @@
+header {
+  display: flex;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.logo {
+  flex:1;
+}
+
+ul {
+  text-align: center;  
+}
+
+nav {
+  flex: 8;
+}
+
+.search {
+  flex: 3;
+}
