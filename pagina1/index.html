@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <title>pagina 1</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" type="text/css">
-  </head>
+    </head>
   <body>
 
     <!-- Se elige la etiqueta header que contendra todo el contenido que va en el encabezado de la pagina -->
@@ -47,8 +46,17 @@
 
     <!-- esta reprenseta la seccion central y autonoma de la pagina, contiene dentro publicidad por lo que se ha dividido en dos secciones -->
     <article class="">
-      <h1 class="titulo"></h1>
-      <h1 class="subtitulo"></h1>
+
+      <div class="article-header">
+        <h1 class="titulo">titulo</h1>
+        <h2 class="subtitulo">subtitulo</h2>
+        <div class="section">
+          <h3>stay updated</h3>
+          <h4>get daily services etc</h4>
+          <input type="text" name="search" placeholder="insert email address">
+          <input type="submit" value="subscribe">
+        </div>
+      </div>
 
       <section class="add-section">
         <aside class="">
@@ -70,11 +78,21 @@
         <button>show comments</button>
       </section>
 
-      <aside>
+      <aside class="add-set">
+        <h2>anuncios</h2>
 
-        <section class="anuncio"></section>
-        <section class="anuncio"></section>
-        <section class="anuncio"></section>
+        <section class="add-section">
+          <img src="" alt="">
+          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+        </section>
+        <section class="add-section">
+          <img src="" alt="">
+          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius non ea eaque!</h4>
+        </section>
+        <section class="add-section">
+          <img src="" alt="">
+          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis assumenda, consequatur!</h4>
+        </section>
       </aside>
 
     </article>
